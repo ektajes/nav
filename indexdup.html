@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://use.fontawesome.com/23040f538a.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="assets/plugins/css/owl.carousel.min.css">
+  </link>
+  <link rel="stylesheet" href="assets/plugins/css/owl.theme.default.min.css">
+  </link>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="assets/css/style1.css">
+  <link rel="stylesheet" href="assets/css/index.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <title>Bootstrap Carousel</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="items">
+            <img class="logo" src="assets/images/lo.jpg">
+            <h3>Fitness For Everyone</h3>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <nav id="menu">
+            <div class="menu-icons">
+              <a href="#" onclick="OpenSideMenu()"> <i class="fas fa-bars" id="open"></i> </a>
+             
+            </div>
+
+
+            <!-- <a href="index.html" class="logo">
+            <i class="fas fa-utensils"></i>
+          </a>-->
+            <ul class="nav-list" id="nav-links">
+              <a href="#" onclick="CloseSideMenu()"> <i class="fas fa-times" id="close"></i> </a>
+              <li class="main">
+                <a href="#">Home</a>
+              </li>
+              <li class="main">
+                <a href="#">Menu
+                  <i class="fas fa-arrow-circle-down"></i>
+                </a>
+
+                <ul class="sub-menu">
+                  <li>
+                    <a href="#">Breakfast</a>
+                  </li>
+
+                  <li>
+                    <a href="#">Lunch
+                      <i class="fas fa-arrow-circle-down"></i>
+                    </a>
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="#">Food</a>
+                      </li>
+                      <li>
+                        <a href="#">Food</a>
+                      </li>
+                      <li>
+                        <a href="#">More..
+                          <i class="fas fa-arrow-circle-down"></i>
+                        </a>
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="#">Food</a>
+                          </li>
+                          <li>
+                            <a href="#">Food</a>
+                          </li>
+                          <li>
+                            <a href="#">Food..</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">Dinner</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="main">
+                <a href="#">Our Chefs</a>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="#">Food</a>
+                  </li>
+                  <li>
+                    <a href="#">Food</a>
+                  </li>
+                  <li>
+                    <a href="#">Food..</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="main">
+                <a href="#">Gallery</a>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="#">Breakfast</a>
+                  </li>
+
+                  <li>
+                    <a href="#">Lunch
+                      <i class="fas fa-arrow-circle-down"></i>
+                    </a>
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="#">Food</a>
+                      </li>
+                      <li>
+                        <a href="#">Food</a>
+                      </li>
+                      <li>
+                        <a href="#">More..
+                          <i class="fas fa-arrow-circle-down"></i>
+                        </a>
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="#">Food</a>
+                          </li>
+                          <li>
+                            <a href="#">Food</a>
+                          </li>
+                          <li>
+                            <a href="#">Food..</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">Dinner</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="main">
+                <a href="#">Blog</a>
+
+              </li>
+              <li class="main">
+                <a href="#">Contact</a>
+
+
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <script src="assets/jquery-3.4.1.js"></script>
+  <script src="assets/plugins/js/owl.carousel.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+
+
+  <script src="assets/js/main.js"></script>
+  <script>
+    function OpenSideMenu() {
+      document.getElementById('nav-links').style.left = '0';
+     
+    }
+    function CloseSideMenu() {
+      document.getElementById('nav-links').style.left = '-290px';
+    }
+  </script>
+  
+</body>
+
+</html>
